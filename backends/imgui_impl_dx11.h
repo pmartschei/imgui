@@ -27,4 +27,7 @@ IMGUI_IMPL_API void     ImGui_ImplDX11_RenderDrawData(ImDrawData* draw_data);
 IMGUI_IMPL_API void     ImGui_ImplDX11_InvalidateDeviceObjects();
 IMGUI_IMPL_API bool     ImGui_ImplDX11_CreateDeviceObjects();
 
+// Custom Functions
+IMGUI_IMPL_API void     ImGui_ImplDX11_ReCreateFontsTexture();
+
 #endif // #ifndef IMGUI_DISABLE

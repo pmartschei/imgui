@@ -164,4 +164,7 @@ struct ImGui_ImplVulkanH_Window
     }
 };
 
+// Custom functions
+IMGUI_IMPL_API bool ImGui_ImplVulkan_UpdateFontsTexture(VkCommandBuffer command_buffer);
+
 #endif // #ifndef IMGUI_DISABLE
