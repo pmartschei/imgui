@@ -42,4 +42,7 @@ IMGUI_IMPL_API void     ImGui_ImplDX12_RenderDrawData(ImDrawData* draw_data, ID3
 IMGUI_IMPL_API void     ImGui_ImplDX12_InvalidateDeviceObjects();
 IMGUI_IMPL_API bool     ImGui_ImplDX12_CreateDeviceObjects();
 
+// Custom functions
+IMGUI_IMPL_API void     ImGui_ImplDX12_UpdateFontsTexture();
+
 #endif // #ifndef IMGUI_DISABLE
