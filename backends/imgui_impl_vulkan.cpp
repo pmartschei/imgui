@@ -800,8 +800,6 @@ bool ImGui_ImplVulkan_CreateFontsTexture()
 
     // Store our identifier
     io.Fonts->SetTexID((ImTextureID) bd->FontDescriptorSet);
-    bd->FontTextureWidth = width;
-    bd->FontTextureHeight = height;
 
     // End command buffer
     VkSubmitInfo end_info = {};
